@@ -59,7 +59,7 @@ Escrito e dirigido por: Theo Goldbach Melgar
 Primeiro clone o repositório remoto para o seu computador e abra a pasta criada
 
 ```bash
-git clone https://github.com/luanalessa/meu-projeto.git && cd meu-projeto
+git clone https://github.com/theomelgar/meu-projeto.git && cd meu-projeto
 ```
 
 E depois, abra o arquivo index.html no seu navegador padrão.
