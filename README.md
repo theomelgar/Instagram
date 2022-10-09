@@ -28,8 +28,6 @@ Escrito e dirigido por: Theo Goldbach Melgar
 - Ícones
     - [ ]  Utilize os ícones da biblioteca Ionicons: [https://ionicons.com/](https://ionicons.com/)
     
-    A seção **Dicas** contém um tutorial para utilizar a biblioteca.
-    
 - Stories
     - [ ]  Na caixa dos stories, deve haver itens o suficiente para ultrapassar a largura, mas os itens a mais não devem ser exibidos, conforme layout
     - [ ]  Deve haver, no modo desktop, uma setinha no canto direito dos stories (conforme mostrado no layout do figma)
@@ -40,9 +38,7 @@ Escrito e dirigido por: Theo Goldbach Melgar
     - [ ]  Não é necessário ter o botão de play
     - [ ]  O vídeo deve ser inserido tanto no formato .mp4 e .ogg, para que funcione em qualquer navegador
     - [ ]  O vídeo deve ser iniciado automaticamente
-    
- 
-    
+     
     Para não incomodar o usuário, os navegadores (nem todos) não permitem que um vídeo toque automaticamente a não ser que o som esteja desativado. Então, se colocou o atributo para iniciar o vídeo automaticamente e não funcionou, desative o som dele :)
     
 - Sidebar fixa
