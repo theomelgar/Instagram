@@ -213,14 +213,20 @@ input {
   border-radius: 3px;
   font-size: 24px;
 }
-button {
-  background: #b2dffc;
-  border: none;
-}
-button :hover {
+
+button:hover {
+  opacity: 1;
+  filter: alpha(opacity=100); /* IE8 e anteriores */
+  zoom: 1; /* Ativa "hasLayout" no IE 7 e anteriores */
   transition-duration: 300ms;
-  background: #0095f6;
-  color: black;
+}
+
+button {
+  color: #0095f6;
+  border: none;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  zoom: 1;
 }
 .comentar .seguir {
   padding: 10px;

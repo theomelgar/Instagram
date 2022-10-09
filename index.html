@@ -9,6 +9,7 @@
     <title>Instagram</title>
   </head>
   <body>
+    <!--MENU TOPO MOBILE-->
     <div class="mobile">
       <div class="menu-topo">
         <ion-icon name="logo-instagram"></ion-icon>
@@ -16,6 +17,8 @@
         <ion-icon name="paper-plane-outline"></ion-icon>
       </div>
     </div>
+    <!--MENU TOPO MOBILE-->
+    <!--MENU TOPO-->
     <div class="cabecalho">
       <div class="menu-topo">
         <div class="logo">
@@ -34,7 +37,10 @@
         </div>
       </div>
     </div>
+    <!--MENU TOPO-->
+    <!--AREA PRINCIPAL-->
     <div class="conteiner">
+      <!--CAIXA STORIES-->
       <div class="stories">
         <ion-icon name="chevron-forward-circle"></ion-icon>
         <div class="story">
@@ -42,7 +48,7 @@
           9gag
         </div>
         <div class="story">
-          <img src="imagens/meowed 1.png" />
+          <img src="/imagens/meowed 1.png" />
           meowed
         </div>
         <div class="story">
@@ -70,10 +76,12 @@
           terraplana
         </div>
       </div>
+      <!--CAIXA STORIES-->
+      <!--FEED-->
       <div class="feed">
         <div class="post">
           <div class="cima">
-            <img class="icone-perfil" src="imagens/9gag.png" />
+            <img class="icone-perfil" src="/imagens/9gag.png" />
             <span class="negrito">9gag</span>
             <ion-icon name="ellipsis-horizontal"></ion-icon>
           </div>
@@ -109,16 +117,18 @@
           <div class="comentar">
             <ion-icon name="happy-outline"></ion-icon>
             <input placeholder="Adicione um comentário..." type="text" />
-            <button><span class="seguir negrito">Publicar</span></button>
+            <button type="submit" disabled>
+              <span class="seguir negrito">Publicar</span>
+            </button>
           </div>
         </div>
         <div class="post">
           <div class="cima">
-            <img class="icone-perfil" src="imagens/p.png" />
+            <img class="icone-perfil" src="/imagens/p.png" />
             <span class="negrito">oRangoTango</span>
             <ion-icon name="ellipsis-horizontal"></ion-icon>
           </div>
-          <img class="foto" src="imagens/baby.jpg" />
+          <img class="foto" src="/imagens/baby.jpg" />
           <div class="acoes">
             <ion-icon name="heart-outline"></ion-icon>
             <ion-icon name="chatbubble-outline"></ion-icon>
@@ -151,11 +161,11 @@
         </div>
         <div class="post">
           <div class="cima">
-            <img class="icone-perfil" src="imagens/adorableanimals 1.png" />
+            <img class="icone-perfil" src="/imagens/adorableanimals 1.png" />
             <span class="negrito">tutel</span>
             <ion-icon name="ellipsis-horizontal"></ion-icon>
           </div>
-          <img class="foto" src="imagens/bat.jpg" />
+          <img class="foto" src="/imagens/bat.jpg" />
           <div class="acoes">
             <ion-icon name="heart-outline"></ion-icon>
             <ion-icon name="chatbubble-outline"></ion-icon>
@@ -187,9 +197,11 @@
           </div>
         </div>
       </div>
+      <!--FEED-->
+      <!--SIDEBAR-->
       <div class="sidebar">
         <div class="perfil">
-          <img src="imagens/p.png" />
+          <img src="/imagens/p.png" />
           <div class="nome">
             <div class="negrito">pintinhoPiu</div>
             <div>Piu</div>
@@ -200,7 +212,7 @@
           <span class="negrito">Ver tudo</span>
           <div class="sugestao">
             <div class="perfil">
-              <img src="imagens/cat.png" />
+              <img src="/imagens/cat.png" />
               <div class="nome">
                 <div class="negrito">Gato</div>
                 <div>Novo no Instagram</div>
@@ -208,7 +220,7 @@
               <div class="seguir">Seguir</div>
             </div>
             <div class="perfil">
-              <img src="imagens/cat.png" />
+              <img src="/imagens/cat.png" />
               <div class="nome">
                 <div class="negrito">Gato</div>
                 <div>Novo no Instagram</div>
@@ -216,7 +228,7 @@
               <div class="seguir">Seguir</div>
             </div>
             <div class="perfil">
-              <img src="imagens/cat.png" />
+              <img src="/imagens/cat.png" />
               <div class="nome">
                 <div class="negrito">Gato</div>
                 <div>Novo no Instagram</div>
@@ -224,7 +236,7 @@
               <div class="seguir">Seguir</div>
             </div>
             <div class="perfil">
-              <img src="imagens/cat.png" />
+              <img src="/imagens/cat.png" />
               <div class="nome">
                 <div class="negrito">Gato</div>
                 <div>Novo no Instagram</div>
@@ -232,7 +244,7 @@
               <div class="seguir">Seguir</div>
             </div>
             <div class="perfil">
-              <img src="imagens/cat.png" />
+              <img src="/imagens/cat.png" />
               <div class="nome">
                 <div class="negrito">Gato</div>
                 <div>Novo no Instagram</div>
@@ -247,7 +259,9 @@
           <div>© 2021 INSTAGRAM DO FACEBOOK</div>
         </div>
       </div>
+      <!--SIDEBAR-->
     </div>
+    <!--BARRA MOBILE-->
     <div class="barra">
       <ion-icon name="home"></ion-icon>
       <ion-icon name="search-outline"></ion-icon>
@@ -255,8 +269,10 @@
       <ion-icon name="heart-outline"></ion-icon>
       <ion-icon name="person-outline"></ion-icon>
     </div>
+    <!--BARRA MOBILE-->
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
   </body>
 </html>
+<!--DICAS-->
 <!--menu(fixed)/side(fixed)/seta story(fixed) position
 BACKGROUND-IMAGE PARA RODA STORY (FLEX-SHRINK:0;)-->
