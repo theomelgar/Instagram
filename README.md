@@ -10,8 +10,6 @@ Escrito e dirigido por: Theo Goldbach Melgar
 <p align="justify" >Fazer uma pagina replicando o layout do Instagram, porem sem a necessidade de funcionalidade</p>
 
 </br>
-<p align = "center"> <img src="
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2Fsocientifica%2Fposts%2Fmag%25C3%25B4-tamb%25C3%25A9m-conhecido-como-t%25C3%25A1rsio-filipino-carlito-syrichta-%25C3%25A9-um-pequeno-mam%25C3%25ADfer%2F1754186694747748%2F&psig=AOvVaw0EJ46e-h8DKJg7WLbHaCuH&ust=1665462679061000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCICB0ozq1PoCFQAAAAAdAAAAABAE"/></p>
 
 ##  <p align = "left"> :white_circle: Tecnologias</p>
 
