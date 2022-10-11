@@ -4,7 +4,9 @@
 Escrito e dirigido por: Theo Goldbach Melgar
 </br>
 </br>
-
+<p align = "center"> <img src="https://github.com/theomelgar/Instagram/blob/main/imagens/pagina%20instagram.png"/> </p>
+</br>
+</br>
 
 ## ✏️ Descrição
 <p align="justify" >Fazer uma pagina replicando o layout do Instagram, porem sem a necessidade de funcionalidade</p>
